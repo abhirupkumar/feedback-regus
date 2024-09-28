@@ -93,7 +93,7 @@ const Recorder = () => {
         ) : (
           <button
             onClick={stopRecording}
-            className="bg-red-500 text-white px-4 py-2 rounded mr-2"
+            className="bg-red-500 text-white px-4 py-2 mr-2"
           >
             Stop Recording
           </button>
