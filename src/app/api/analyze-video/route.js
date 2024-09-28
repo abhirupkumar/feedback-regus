@@ -3,12 +3,6 @@ import formidable from 'formidable';
 import fs from 'fs/promises';
 import { NextResponse } from 'next/server';
 
-export const config = {
-    api: {
-        bodyParser: false,
-    },
-};
-
 const genAI = new GoogleGenerativeAI(process.env.NEXT_PUBLIC_GEMINI_API_KEY);
 
 export async function POST(req) {
