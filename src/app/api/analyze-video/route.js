@@ -28,7 +28,7 @@ export async function POST(req) {
         };
 
         const prompt = `
-        'The video provided is an answer to the question: Tell me about yourself.Analyze this video for the following aspects:',
+        'The video provided is an answer to the question: Tell me about yourself. Analyze this video for the following aspects:',
             1. Technical response: Evaluate the accuracy and depth of the technical information provided.,
             2. Soft skills: Assess communication skills, clarity of explanation, and overall presentation.,
             3. Body language: Analyze posture, gestures, and facial expressions.,
