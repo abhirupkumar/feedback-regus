@@ -1,5 +1,4 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import formidable from 'formidable';
 import fs from 'fs/promises';
 import { NextResponse } from 'next/server';
 
